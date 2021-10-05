@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Repunte_Patuti</title>
+    <link rel="shortcut icon" href="assets/images/ufo.png"/>
+    <style>
+      body {
+        background-image: url("assets/images/galaxy.png");
+        height: 100%;
+        margin: auto;
+        padding: 20px;
+      }
+      canvas {
+        background: white;
+        width: 100%;
+        max-width: 35%;
+        border: 10px solid #62466B;
+      }
+      h1{
+        color: white;
+        font-family: fantasy;
+        font-size: 3em;
+        width: 750px;
+        text-align: center;
+        margin-top: 10px;
+      }
+      *{
+        margin:auto;
+        text-align:center;
+      }
+      .container{
+        padding: 80px;
+        display: flex;
+      }
+
+      #instructions{
+        background: #62466B;
+        border: 10px solid #62466B;
+        padding: auto;
+      }
+
+
+    </style>
+  </head>
+  <body><h1>Patuti Spaceship Mission<img src="assets/images/ufo.png" width="80px"></h1> 
+    <div class="container">
+    <div id="instructions"><img src="assets/images/controls.png" height="400px"width="400px"></div>
+    <canvas id="game" width="256" height="260"></canvas>
+    
+
+      
+    </div>
+    <script src="lib/alien.build.min.js"></script>
+    <script src="src/game.js"></script>
+
+    </div>
+  </body>
+</html>
